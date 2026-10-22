@@ -1,0 +1,27 @@
+{
+    "id": "todoReminder",
+    "name": "Todo Reminder",
+    "description": "待办清单小组件：快速勾选完成、当日完成显示删除线、支持日期时间与每日循环、到点发送提醒通知",
+    "version": "1.0.0",
+    "license": "MIT",
+    "author": "yyl",
+    "icon": "checklist",
+    "type": "widget",
+    "category": "productivity",
+    "component": "./TodoReminderWidget.qml",
+    "settings": "./TodoReminderSettings.qml",
+    "capabilities": [
+        "dankbar-widget"
+    ],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "dependencies": [],
+    "permissions": [
+        "settings_read",
+        "settings_write"
+    ]
+}
